@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import LandingPage from "./Page/LandingPage";
+
+import "./assets/scss/style.scss";
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+// particlesJS.load("particles-js", "json/particles.js", function () {
+//   console.log("callback - particles-js config loaded");
+// });
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" Component={LandingPage} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

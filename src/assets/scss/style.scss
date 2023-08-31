@@ -1,0 +1,229 @@
+@import "mixins/banner";
+@include bsBanner("");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:300,400,500,700&display=swap");
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "variables-dark";
+@import "maps";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.brand-text-icon {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: $gray-900;
+  .brand-sub-text {
+    color: $primary;
+    font-weight: 1000;
+  }
+}
+
+.navbar {
+  .navbtn {
+    margin-left: 40px;
+    margin-right: 40px;
+    &.active {
+      a.nav-link {
+        color: $primary;
+        font-weight: 700;
+        font-size: 14;
+        pointer-events: none;
+      }
+    }
+    a.nav-link {
+      color: $gray-900;
+      font-weight: 700;
+      font-size: 14;
+      transition: ease-out;
+      transition-duration: 1s;
+      &:hover {
+        color: $indigo;
+        font-size: 14;
+        font-weight: 700;
+        transition-duration: 1s;
+        transition: ease-out;
+      }
+    }
+  }
+}
+
+.chat-button {
+  background-color: $primary;
+  border: 2px solid $gray-900;
+  font-size: 24px;
+  font-weight: 700;
+  color: $gray-900;
+  &:hover {
+    background-color: transparent;
+    border: 2px solid transparent;
+    text-decoration: underline $primary 3px;
+    transition: ease;
+    transition-duration: 1s;
+  }
+}
+
+// hero
+
+.hero-container {
+  margin-top: 5rem;
+}
+
+.hero-text {
+  color: $gray-900;
+}
+.hero-introduction {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0px;
+}
+.hero-selfclaim {
+  font-size: 10px;
+  font-weight: 400px;
+  margin-top: 12px;
+  margin: 12px 0px 0px 0px;
+}
+.hero-job {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0px;
+}
+.hero-description {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.hero-button-container {
+  margin-top: 12px;
+}
+
+.hero-button {
+  background-color: $primary;
+  height: 48px;
+  width: 120px;
+  border: 2px solid $gray-900;
+  font-size: 24px;
+  font-weight: 700;
+  color: $gray-900;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  margin-right: 30px;
+  &:hover {
+    background-color: $gray-900;
+    color: $primary;
+    transition: ease;
+    transition-duration: 0.5s;
+    border: 2px solid $primary;
+  }
+}
+
+.projects-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: $gray-900;
+  border: 5px solid transparent;
+  &:hover {
+    border-bottom: 5px solid $primary;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+  }
+}
+
+.skillbeans {
+  margin: 8px 8px 8px 0;
+  &.top {
+    margin-top: 20px;
+  }
+}
+
+.beans {
+  list-style: none;
+}
+
+.btn {
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  &.dark-beans {
+    padding: 4px;
+    background-color: #aee2ff;
+    color: $black;
+  }
+  &.lg-beans {
+    padding: 4px;
+    background-color: #13005a;
+    color: $white;
+  }
+  &.dark-beans:hover {
+    padding: 4px;
+    background-color: #aee2ff;
+    color: $black;
+  }
+  &.lg-beans:hover {
+    padding: 4px;
+    background-color: #13005a;
+    color: $white;
+  }
+  &.beans {
+    margin-right: 5px;
+    list-style: none;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+}
