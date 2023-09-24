@@ -52,7 +52,6 @@
 @import "utilities/api";
 // scss-docs-end import-stack
 
-
 html,
 body {
   font-family: "Poppins", sans-serif;
@@ -225,5 +224,62 @@ body {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
+  }
+}
+
+.portfolio-header-container {
+  margin-top: 12px;
+  .portfolio-header {
+    color: $gray-900;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+}
+
+.portfolio-graphicdesign-gallery {
+  display: flex;
+  flex-direction: row;
+  .portfolio-graphicdesign-text {
+    color: $gray-900;
+    font-size: 16px;
+    font-weight: 500;
+    .portfolio-graphicdesign-span {
+      color: $gray-900;
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+}
+
+.gdportfolio-container {
+  display: flex;
+  flex-direction: column;
+  .designportfolio-img {
+    display: flex;
+    transition: transform .5s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .designportfolio-name {
+    font-size: 16px;
+    color: $gray-900;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .designportfolio-date {
+    font-size: 12px;
+    color: $gray-900;
+    font-weight: 300;
+  }
+}
+
+.developerjourney-container {
+  margin-top: 12px;
+  .developerjourney-text {
+    font-size: 16px;
+    color: $gray-900;
+    font-weight: 500;
   }
 }

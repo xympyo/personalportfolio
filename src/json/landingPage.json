@@ -1,0 +1,84 @@
+{
+  "skillsbean": [
+    { "skills": ["HTML", "CSS", "JavaScript", "Bootstrap", "React JS"] }
+  ],
+  "portfolioShowcase": [
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name": "My Latest Graphic Design Gallery"
+    }
+  ],
+  "items": [
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed June",
+      "date": "June 3rd",
+      "imageUrl": "/images/June24.png",
+      "linkToImg": "https://www.instagram.com/p/Cs87jg9v1n6/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed June",
+      "date": "June 10th",
+      "imageUrl": "/images/June11.png",
+      "linkToImg" : "https://www.instagram.com/p/CtOzPtUPFPq/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed June",
+      "date": "June 24th",
+      "imageUrl": "/images/June24.png",
+      "linkToImg" : "https://www.instagram.com/p/Ctv6RHiv-sF/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed July",
+      "date": "July 1st",
+      "imageUrl": "/images/July1.png",
+      "linkToImg" : "https://www.instagram.com/p/CuFhcizScnN/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed July",
+      "date": "July 15th",
+      "imageUrl": "/images/July15.png",
+      "linkToImg" : "https://www.instagram.com/p/CupE8g3P5dc/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed July",
+      "date": "July 22th",
+      "imageUrl": "/images/July27.png",
+      "linkToImg" : "https://www.instagram.com/p/Cu6IfFdPnrA/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed July",
+      "date": "July 29th",
+      "imageUrl": "/images/July29.png",
+      "linkToImg" : "https://www.instagram.com/p/CvLqHQHPuR0/"
+    },
+
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth x Be Strong",
+      "date": "Augusts 5th",
+      "imageUrl": "/images/August5.png",
+      "linkToImg" : "https://www.instagram.com/p/CveSFt6v5l_/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth x HUT RI",
+      "date": "Augusts 12th",
+      "imageUrl": "/images/August12.png",
+      "linkToImg" : "https://www.instagram.com/p/CvwYy5tP5SH/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "name1": "Youth Feed September",
+      "date": "September 2nd",
+      "imageUrl": "/images/Sept2.png",
+      "linkToImg" : "https://www.instagram.com/p/Cwm9GKSvzRq/"
+    }
+  ]
+}
